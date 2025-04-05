@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "bun run init",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "biome check . --fix --unsafe"
+    "format": "biome check . --fix --unsafe",
+    "init": "bun run .ai/lib/build.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",

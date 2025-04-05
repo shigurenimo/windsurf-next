@@ -1,0 +1,26 @@
+---
+description: 
+globs: components/**/*.tsx
+alwaysApply: false
+---
+
+- 型Propsを定義する
+
+```tsx
+import { Card } from "~/interface/components/ui/card"
+
+type Props = {
+  title: string
+}
+
+/**
+ * カード
+ */
+export function SampleCard(props: Props) {
+  return (
+    <Card>
+      <p>{props.title}</p>
+    </Card>
+  )
+}
+```

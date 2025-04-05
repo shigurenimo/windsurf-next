@@ -1,3 +1,10 @@
+# Rules
+/.windsurfrules
+/.clinerules
+/.cursor/rules/*
+!/.cursor/rules/.gitkeep
+CLAUDE.md
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
